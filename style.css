@@ -21,7 +21,6 @@ h1 {
     font-size: 100px;
     display: flex;
     justify-content: center;
-
 }
 
 .buttons {
@@ -92,5 +91,158 @@ p {
     color: black;
     padding: 10px;
     font-size: 50px;
+}
+
+@media screen and (max-width: 770px) {
+    h1 {
+        color: rgb(109, 109, 109);
+        font-size: 75px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .buttons {
+        margin-top: 10px;
+        font-size: 65px;
+        background-color: rgb(42, 65, 165);
+        cursor: pointer;
+        width: 110px;
+        height: 110px;
+        margin-right: 30px;
+        border-radius: 20px;
+        margin-bottom: 40px;
+        transition: opacity 0.5s ease-in-out;
+    }
+
+    .div-button {
+        margin-top: 10px;
+    }
+
+    p {
+        font-size: 35px;
+    }
+
+    .container {
+        background-color: rgb(123, 255, 0);
+        padding: 40px;
+        border-radius: 25px;
+    }
+
+    .result {
+        color: black;
+        padding: 10px;
+        font-size: 40px;
+    }
+
+    .reset {
+        padding: 7px;
+        color: #FFF;
+        font-size: 30px;
+        border-radius: 20px;
+        border-color: #fff;
+        background: green;
+    }
+
+    @media screen and (max-width: 550px) {
+        h1 {
+            color: rgb(109, 109, 109);
+            font-size: 60px;
+            display: flex;
+            justify-content: center;
+        }
+    
+        .buttons {
+            margin-top: 5px;
+            font-size: 50px;
+            background-color: rgb(42, 65, 165);
+            cursor: pointer;
+            width: 80px;
+            height: 80px;
+            margin-right: 30px;
+            border-radius: 20px;
+            margin-bottom: 40px;
+            transition: opacity 0.5s ease-in-out;
+        }
+    
+        .div-button {
+            margin-top: none;
+        }
+    
+        p {
+            font-size: 30px;
+        }
+    
+        .container {
+            background-color: rgb(123, 255, 0);
+            padding: 30px;
+            border-radius: 30px;
+        }
+
+        .result {
+            color: black;
+            padding: 10px;
+            font-size: 30px;
+        }
+    
+        .reset {
+            padding: 7px;
+            color: #FFF;
+            font-size: 25px;
+            border-radius: 20px;
+            border-color: #fff;
+            background: green;
+        }
+
+        @media screen and (max-width: 480px) {
+            h1 {
+                color: rgb(109, 109, 109);
+                font-size: 40px;
+                display: flex;
+                justify-content: center;
+            }
+        
+            .buttons {
+                margin-top: 0px;
+                font-size: 30px;
+                background-color: rgb(42, 65, 165);
+                cursor: pointer;
+                width: 50px;
+                height: 50px;
+                margin-right: 20px;
+                border-radius: 15px;
+                margin-bottom: 30px;
+                transition: opacity 0.5s ease-in-out;
+            }
+        
+            .div-button {
+                margin-top: 0px;
+            }
+        
+            p {
+                font-size: 20px;
+            }
+        
+            .container {
+                background-color: rgb(123, 255, 0);
+                padding: 30px;
+                border-radius: 30px;
+            }
+
+            .result {
+                color: black;
+                padding: 10px;
+                font-size: 20px;
+            }
+        
+            .reset {
+                padding: 7px;
+                color: #FFF;
+                font-size: 15px;
+                border-radius: 13px;
+                border-color: #fff;
+                background: green;
+            }
+        }
+    }
 }
 
