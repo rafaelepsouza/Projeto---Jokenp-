@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Yatra+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Yatra One', cursive;
+}
+
+body{
+    background: url(https://source.unsplash.com/1600x900/?landscape);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+h1 {
+    color: rgb(109, 109, 109);
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.buttons {
+    margin-top: 20px;
+    font-size: 90px;
+    background-color: rgb(42, 65, 165);
+    cursor: pointer;
+    width: 150px;
+    height: 150px;
+    margin-right: 40px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.button, .div-buttons {
+    display: flex;
+    justify-content: center;
+    transition: opacity 0.5s ease-in-out;
+    margin-top: 15px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.5;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    transition: opacity 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+p {
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    background-color: rgb(123, 255, 0);
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.your-score span {
+    color: rgb(42, 65, 165);
+}
+
+.machine-score span {
+    color: rgb(42, 65, 165);
+}
+
+.reset {
+    padding: 10px;
+    color: #FFF;
+    font-size: 40px;
+    border-radius: 20px;
+    border-color: #fff;
+    background: green;
+}
+
+.result {
+    color: black;
+    padding: 10px;
+    font-size: 50px;
+}
+
