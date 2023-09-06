@@ -246,3 +246,9 @@ p {
     }
 }
 
+button:hover {
+    opacity: 0.8;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
